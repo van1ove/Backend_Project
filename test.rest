@@ -1,0 +1,21 @@
+### Test get home page
+GET http://localhost:1505
+
+### Test get categories
+GET http://localhost:1505/categories
+
+### Test get api data
+GET http://localhost:1505/api/data
+
+### Test post api data
+POST http://localhost:1505/api/data
+Content-Type: application/json
+
+{
+    "name": "Barcelona",
+    "country": "Spain",
+    "sportType": "Football"
+}
+
+### Test delete api data
+DELETE http://localhost:1505/api/data
